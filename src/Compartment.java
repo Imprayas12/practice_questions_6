@@ -57,8 +57,12 @@ class TestCompartment{
             arr[2] = new General();
             arr[3] = new FirstClass();
         }
-        for (int i = 0; i < 4; i++) {
-            System.out.println(arr[i].notice());
+        if(n==0){
+            System.out.println("Ganda number");
+        }else {
+            for (int i = 0; i < 4; i++) {
+                System.out.println(arr[i].notice());
+            }
         }
     }
 }
